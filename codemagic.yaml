@@ -37,7 +37,7 @@ workflows:
       - name: Build iOS ipa
         script: |
           xcode-project build-ipa \
-            --project "Track Time.xcworkspace" \
+            --project "Track Time.xcodeproj" \
             --scheme "Track Time" \
             --config Release
 
